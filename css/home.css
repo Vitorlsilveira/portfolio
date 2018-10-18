@@ -1,0 +1,59 @@
+  
+   @media screen and (max-width: 576px){
+      #perfil-description{
+        padding-top: 20px;
+      }
+    }
+  
+    .perfil-img{
+        max-width: 100%;
+        width: 325px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    #perfil-description{
+      width: 325px;
+      text-align: justify;
+      font-family: 'Merriweather Sans', sans-serif;
+      font-size: 16px;
+    }
+  
+    #perfil-description a{
+      color: #085980;
+    }
+  
+    #perfil-description a:hover{
+      color: #085980;
+    }
+  
+   #perfil{
+    background-color: #8181810f;
+   }
+  
+   #gosto{
+    background-color: #e5ecf4;
+   }
+  
+   #sites{
+    background-color: #ccefc9;
+   }
+  
+   .item img{
+     width: 200px;
+     height: 200px;
+   }
+  
+   .item p{
+    width: 200px;
+    color: #085980;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+   }
+  
+   .item span:hover{
+    position: relative;
+    left: -2px;
+    top: -2px;
+   }

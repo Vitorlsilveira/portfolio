@@ -1,0 +1,67 @@
+
+#pessoal .img-thumbnail{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#pessoal #dados p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main p{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main{
+    background-color:#8181810f;
+}
+
+.subsecao{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.subsecao .conteudo{
+    margin-left: 5%;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#grafico-habilidades, #grafico-ferramentas{
+    margin-top: 30px;  
+}
+
+.subsecao .titulo, #pessoal .download{
+    display: flex;
+    align-items:center;
+}
+
+.subsecao .titulo h2, #pessoal .download p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+#pessoal .download{
+    color: #085980;
+}
+
+@media screen and (max-width: 576px){
+    #pessoal #dados{
+      padding-top: 20px;
+    }
+
+    #pessoal #dados > p{
+        text-align: center;
+    }
+
+    #pessoal #dados .download{
+        justify-content: center;
+    }
+
+    #pessoal .img-thumbnail{
+        border-radius: 50%;
+    }
+}

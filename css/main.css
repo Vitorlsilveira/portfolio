@@ -1,0 +1,30 @@
+
+@font-face {
+    src: url(../fonts/Merriweather_Sans/MerriweatherSans-Regular.ttf);
+    font-family: 'Merriweather Sans';    
+    font-weight: normal;
+}
+
+section h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+

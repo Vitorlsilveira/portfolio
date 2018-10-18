@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio - Contato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/contato.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header></header>
+  <main>
+      <div class='container-fluid'>
+        <h1>Contato</h1>   
+        <section id="contato" class="subsecao">
+            <div class="titulo">
+                <img alt="Conversar" src="img/icon-conversa.png">
+                <h2>Vamos conversar?</h2>
+            </div>
+            <div class="conteudo">
+              <p>Caso queira entrar em contato comigo, você pode utilizar os seguintes meios:</p>
+              <p><strong>Endereço</strong>: Rua dos Carijós, Belo Horizonte, Minas Gerais.</p>
+              <p><strong>Telefone</strong>: (31) 99491-6708</p>
+              <p><strong>Email</strong>: vitorlsilveira10@gmail.com</p>
+              <a target="_blank" href="https://www.linkedin.com/in/vitor-lemos-silveira-683628121/" class="fa fa-linkedin"></a>
+              <a target="_blank" href="https://twitter.com/VitorSi95260927" class="fa fa-twitter"></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCs3Fstbnqf0eyLPQD-cXFHQ" class="fa fa-youtube"></a>
+            </div>
+        </section>
+        <section id="mapa" class="subsecao">
+            <div class="titulo">
+                <img alt="Caminhar" src="img/icon-caminhar.png">
+                <h2>Venha me visitar</h2>
+            </div>
+            <div class="conteudo">
+              <p>Além dos métodos tradicionais de contato, admiro muito uma boa conversa pessoalmente.</p>
+              <p>Você pode utilizar o mapa abaixo para me encontrar.</p>
+              <div id='map'></div>
+            </div>
+        </section>        
+        <div id="geografia">
+            <p>Estamos a <span id="distancia"></span> de distância.</p>
+            <p>Caso venha de carro pela rota sugerida você gastará aproximadamente <span id="tempo-carro"></span>.</p>
+            <p>A previsão do tempo para minha localização nesse momento é de <span id="temperatura"></span>
+              graus.</p> 
+            <p><span id="temperatura-descricao"></span>.</p> 
+        </div>
+      </div>
+  </main>
+  <script src="components/jquery/jquery-3.3.1.min.js"></script>
+  <script src="components/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAushJ69tLHl0kDlBc2hM_1D_h0wbjEDok"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contato.js"></script>
+</body>
+
+</html>

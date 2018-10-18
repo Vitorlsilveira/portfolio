@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - Curriculo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <div class="container-fluid">
+            <section id="pessoal">
+                <h1>Meu currículo</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-6 text-center text-sm-right">
+                        <img alt="Curriculo" class="img-thumbnail" src="img/curriculo.jpg">
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center">
+                        <div id="dados">
+                            <p>VITOR LEMOS SILVEIRA</p>
+                            <p>Engenheiro da computação</p>
+                            <p id="idade"></p>
+                            <p>vitorlsilveira10@gmail.com</p>
+                            <p>(31) 99491-6708</p>
+                            <p>Belo Horizonte, Minas Gerais</p>
+                            <a class="download" href="doc/curriculo.pdf" download>
+                                <img alt="Download" src="img/icon-download.png">
+                                <p>Baixar versão completa</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="perfil" class="subsecao">
+                <div class="titulo">
+                    <img alt="Perfil" src="img/icon-perfil.png">
+                    <h2>Perfil</h2>
+                </div>
+                <div class="conteudo">
+                    <p>Sou uma pessoa determinada,proativa, gosto das coisas bem feitas. Tenho facilidade em trabalhar
+                        em equipe e busco sempre adquirir novos conhecimentos.</p>
+                </div>
+            </section>
+            <section id="experiencia" class="subsecao">
+                <div class="titulo">
+                    <img alt="Trabalho" src="img/icon-trabalho.png">
+                    <h2>Experiência profissional</h2>
+                </div>
+                <div class="conteudo">
+                    <p class="font-weight-bold">Trainee</p>
+                    <p>SYDLE - MG</p>
+                    <p>Abril de 2017 - Presente</p>
+                </div>
+            </section>
+            <section id="habilidades" class="subsecao">
+                <div class="titulo">
+                    <img alt="Lampada" src="img/icon-lampada.png">
+                    <h2>Habilidades</h2>
+                </div>
+                <div id="grafico-habilidades"></div>
+            </section>
+            <section id="ferramentas" class="subsecao">
+                <div class="titulo">
+                    <img alt="Engrenagem" src="img/icon-engrenagem.png">
+                    <h2>Ferramentas</h2>
+                </div>
+                <div id="grafico-ferramentas"></div>
+            </section>
+        </div>
+    </main>
+    <script src="components/jquery/jquery-3.3.1.min.js"></script>
+    <script src="components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="components/highcharts/code/highcharts.src.js"></script>
+    <script src="components/highcharts/code/modules/drilldown.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/curriculo.js"></script>
+</body>
+
+</html>
